@@ -13,7 +13,7 @@ Specific configs I use for Pop!_OS and my [FrameWork laptop](https://frame.work)
 - edgeInstall.sh
     - `Install MSEdge`
     
-## - configPwshGnomeTerminal.ps1
+## configPwshGnomeTerminal.ps1
 This script does two things:
 
 - Transform your gnome-terminal to be more PowerShelly
