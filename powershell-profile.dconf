@@ -1,0 +1,11 @@
+[/]
+foreground-color='rgb(255,255,255)'
+visible-name='powershell'
+palette=['rgb(0,0,0)', 'rgb(129,0,6)', 'rgb(0,127,28)', 'rgb(237,236,239)', 'rgb(0,13,125)', 'rgb(0,42,85)', 'rgb(0,128,127)', 'rgb(191,191,191)', 'rgb(127,127,127)', 'rgb(255,0,24)', 'rgb(0,255,56)', 'rgb(255,254,60)', 'rgb(0,33,250)', 'rgb(255,0,251)', 'rgb(0,255,254)', 'rgb(255,255,255)']
+custom-command='pwsh'
+default-size-columns=80
+default-size-rows=24
+use-system-font=true
+use-custom-command=true
+use-theme-colors=false
+background-color='rgb(0,42,85)'
