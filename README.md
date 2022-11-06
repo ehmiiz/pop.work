@@ -1,32 +1,43 @@
 # pop.work
+
 Specific configs I use for Pop!_OS and my [Framework laptop](https://frame.work)
 
-- pwshInstall.sh
-    - `Installs PowerShell`
+## Script Documentation
 
-- egpuSwitcherInstall.sh
-    - `Installs EGPU-Switcher via git repo and runs setup`
+#### pwshInstall.sh
 
-- fingerPrintInstall.sh
-    - `Installs the frame.work fingerprint sensor`
+Installs the latest PowerShell Core version for debian based distributions
 
-- edgeInstall.sh
-    - `Install MSEdge`
-    
-## configPwshGnomeTerminal.ps1
+#### egpuSwitcherInstall.sh
+
+Installs EGPU-Switcher via git repo and runs setup
+
+#### fingerPrintInstall.sh
+
+Installs the frame.work fingerprint sensor
+
+
+#### edgeInstall.sh
+
+Install Microsoft Edge 
+
+#### configPwshGnomeTerminal.ps1
+
 This script does two things:
 
 - Transform your gnome-terminal to be more PowerShelly
 - Enables 'Right-Click' -> New PowerShell Window, on gnome-terminal
 
-### Example:
 ```powershell
 ./configPwshGnomeTerminal.ps1
 ```
 
-### Theme:
+End result looks the following
+
 ![Theme](/img/Theme.png)
 
-### Feature:
-
 ![Theme](/img/NewPwshWin.png)
+
+#### fixScrollSpeed.ps1
+
+This script fixes gnome bug with scroll speed using imwheel
